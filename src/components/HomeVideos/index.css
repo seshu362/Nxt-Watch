@@ -1,0 +1,75 @@
+.list-link-video {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  height: 350px;
+  margin-right: 25px;
+  margin-bottom: 15px;
+  text-decoration: none;
+  list-style-type: none;
+}
+.thumbnail-img {
+  width: 100%;
+}
+
+.video-details-container {
+  display: flex;
+  flex-direction: row;
+  margin-top: 8px;
+}
+
+.channel-logo {
+  height: 40px;
+  width: 40px;
+}
+
+.video-text-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-left: 10px;
+}
+
+.title {
+  font-size: 14px;
+  font-family: 'Roboto';
+  color: #231f20;
+  margin-top: 0px;
+  font-weight: 600;
+}
+.name {
+  font-size: 12px;
+  font-family: 'Roboto';
+  color: #231f20;
+  margin-top: 0px;
+  font-weight: 700;
+  margin-bottom: 0px;
+}
+
+.view-year-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 0px;
+}
+
+.view-text-data {
+  font-size: 13px;
+  font-family: 'Roboto';
+  color: #231f20;
+  margin-top: 0px;
+  font-weight: 700;
+}
+.view-text {
+  font-size: 11px;
+  font-family: 'Roboto';
+  color: #231f20;
+  margin-top: 0px;
+  font-weight: 700;
+  padding-left: 2px;
+  padding-right: 2px;
+}
+
+.dot {
+  margin-top: 10px;
+}

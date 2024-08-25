@@ -1,0 +1,204 @@
+.home-bg-container {
+  height: 90vh;
+  display: flex;
+  flex-direction: row;
+  background-color: #f9f9f9;
+}
+
+.home-video-container {
+  width: 100%;
+  height: 90vh;
+  overflow-y: auto;
+}
+
+.banner-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/nxt-watch-banner-bg.png');
+  height: 270px;
+  width: 100%;
+  background-size: cover;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.banner-left-container {
+  display: flex;
+  flex-direction: column;
+  padding: 25px;
+  width: 50%;
+}
+
+.banner-nxt-watch-logo {
+  width: 180px;
+  margin-bottom: 20px;
+}
+.banner-text {
+  font-size: 20px;
+  font-family: 'Roboto';
+  font-weight: 500;
+  color: #212121;
+}
+.get-it-btn {
+  height: 50px;
+  width: 150px;
+  background-color: transparent;
+  border: 2px solid #212121;
+  font-size: 16px;
+  font-family: 'Roboto';
+  color: #212121;
+  outline: none;
+  font-weight: 500;
+  margin-top: 20px;
+  cursor: pointer;
+}
+.banner-right-container {
+  justify-content: flex-end;
+  padding-right: 30px;
+  padding-top: 15px;
+}
+.close-btn {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.searchContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 40px;
+  width: 40%;
+  border: 1px solid #909090;
+  margin-top: 15px;
+  margin-bottom: 30px;
+  margin-left: 15px;
+}
+.searchInput {
+  height: 40px;
+  width: 80%;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  padding-left: 15px;
+  font-size: 18px;
+  color: #231f20;
+  font-weight: 500;
+  font-family: 'Roboto';
+  align-items: center;
+}
+.search-icon-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  outline: none;
+  border: none;
+  background-color: transparent;
+  width: 15%;
+  border-left: 1px solid #909090;
+  cursor: pointer;
+}
+
+.home-failure-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  margin-top: 50px;
+  margin-bottom: 15px;
+}
+
+.failure-img {
+  height: 300px;
+  width: 350px;
+}
+
+.failure-heading {
+  color: #231f20;
+  font-size: 28px;
+  font-weight: 800;
+  font-family: 'Roboto';
+  text-align: center;
+  margin-top: 15px;
+}
+.failure-para {
+  color: #231f20;
+  font-size: 20px;
+  text-align: center;
+  font-weight: 500;
+  font-family: 'Roboto';
+}
+.retry-btn {
+  height: 40px;
+  width: 120px;
+  border-radius: 4px;
+  background-color: #4f46e5;
+  font-size: 16px;
+  font-family: 'Roboto';
+  color: #f9f9f9;
+  outline: none;
+  border: none;
+  font-weight: 500;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.video-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding-left: 0px;
+}
+
+.loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.no-search-video-container {
+  width: 100%;
+  height: 90vh;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.no-search-image {
+  height: 400px;
+  width: 400px;
+}
+.no-search-heading {
+  color: #0f0f0f;
+  font-size: 25px;
+  font-weight: 500;
+  font-family: 'Roboto';
+  text-align: center;
+}
+
+.no-search-para {
+  color: #231f20;
+  font-size: 19px;
+  font-weight: 500;
+  font-family: 'Roboto';
+  margin-top: 0px;
+}
+
+.no-search-retry-btn {
+  height: 40px;
+  width: 120px;
+  border-radius: 4px;
+  background-color: #4f46e5;
+  font-size: 16px;
+  font-family: 'Roboto';
+  color: #f9f9f9;
+  outline: none;
+  border: none;
+  font-weight: 500;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  cursor: pointer;
+}

@@ -1,0 +1,93 @@
+.game-item-details-container {
+  height: 90vh;
+  display: flex;
+  flex-direction: row;
+  background-color: #f9f9f9;
+}
+
+.game-playing-container {
+  width: 100%;
+  height: 90vh;
+  flex-direction: column;
+  overflow-y: auto;
+}
+
+.game-icon-container {
+  display: flex;
+  flex-direction: row;
+  height: 130px;
+  background-color: #f1f1f1;
+  align-items: center;
+  margin: 0px;
+  padding-left: 7%;
+}
+.game-logo-container {
+  background-color: #e2e8f0;
+  border-radius: 100px;
+  height: 80px;
+  width: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.game-text {
+  color: #0f0f0f;
+  font-size: 30px;
+  font-family: 'Roboto';
+  font-weight: 700;
+  margin-left: 15px;
+}
+
+.failure-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  margin-top: 50px;
+  margin-bottom: 15px;
+}
+
+.failure-img {
+  height: 300px;
+  width: 350px;
+}
+
+.failure-heading {
+  color: #231f20;
+  font-size: 28px;
+  font-weight: 800;
+  font-family: 'Roboto';
+  text-align: center;
+  margin-top: 15px;
+}
+.failure-para {
+  color: #231f20;
+  font-size: 20px;
+  text-align: center;
+  font-weight: 500;
+  font-family: 'Roboto';
+}
+.retry-btn {
+  height: 40px;
+  width: 120px;
+  border-radius: 4px;
+  background-color: #4f46e5;
+  font-size: 16px;
+  font-family: 'Roboto';
+  color: #f9f9f9;
+  outline: none;
+  border: none;
+  font-weight: 500;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.game-video-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-left: 7%;
+  margin-right: 20px;
+  padding-left: 0px;
+}

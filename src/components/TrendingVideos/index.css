@@ -1,0 +1,54 @@
+.trending-link-decoration {
+  text-decoration: none;
+}
+
+.trending-list-videos {
+  display: flex;
+  list-style-type: none;
+  flex-direction: row;
+  margin-bottom: 50px;
+}
+
+.thumbnail-url-img {
+  height: 220px;
+}
+
+.trending-details-container {
+  display: flex;
+  flex-direction: column;
+  padding-left: 20px;
+}
+
+.trending-title {
+  font-size: 20px;
+  font-family: 'Roboto';
+  color: #231f20;
+  font-weight: 600;
+  margin-top: 23px;
+  margin-bottom: 0px;
+}
+
+.trending-view-year-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.trending-view-text-data {
+  font-size: 15px;
+  font-family: 'Roboto';
+  color: #64748b;
+  font-weight: 700;
+}
+.trending-view-text {
+  font-size: 14px;
+  font-family: 'Roboto';
+  color: #64748b;
+  font-weight: 700;
+  padding-left: 2px;
+  padding-right: 2px;
+}
+
+.trending-dot {
+  color: #64748b;
+}

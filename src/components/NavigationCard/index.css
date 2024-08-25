@@ -1,0 +1,97 @@
+.card-items-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 22%;
+  background-color: #ffffff;
+}
+.darkThemeBgColor {
+  background-color: #181818;
+}
+.darkThemeItemColor {
+  color: #ffffff;
+  font-size: 16px;
+  font-family: 'Roboto';
+  margin-left: 20px;
+  font-weight: 400;
+}
+
+.nav-route {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+
+  width: 100%;
+  padding: 0px;
+}
+.list-item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-top: 0px;
+  height: 35px;
+  margin-bottom: 5px;
+  padding-left: 15px;
+  cursor: pointer;
+}
+
+.active-list-item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-top: 0px;
+  height: 35px;
+  margin-bottom: 5px;
+  padding-left: 15px;
+  cursor: pointer;
+  background-color: #cbd5e1;
+}
+
+.nav-route-name-text {
+  color: #231f20;
+  font-size: 16px;
+  font-family: 'Roboto';
+  margin-left: 20px;
+  font-weight: 400;
+}
+.active-nav-route-name-text {
+  color: #231f20;
+  font-size: 16px;
+  font-family: 'Roboto';
+  margin-left: 20px;
+  font-weight: 600;
+}
+
+.link-decoration {
+  text-decoration: none;
+}
+
+.contacts-info-container {
+  display: flex;
+  flex-direction: column;
+  padding-left: 15px;
+}
+
+.contacts-heading {
+  color: #231f20;
+  font-size: 17px;
+  font-weight: 800;
+  font-family: 'Roboto';
+}
+.contacts-logo-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.contact-logos {
+  height: 35px;
+  margin-right: 20px;
+}
+
+.contacts-para {
+  color: #231f20;
+  font-size: 15px;
+  font-weight: 500;
+  font-family: 'Roboto';
+}
